@@ -193,10 +193,6 @@
     padding-bottom: 11px
 }
 
-.z {
-    font-weight: 700
-}
-
 .song-area {
     display: block;
     height: 53px;
@@ -346,7 +342,7 @@
         width: 35px
     }
 
-    .y {
+    .z {
         width: 35px
     }
 
@@ -393,7 +389,7 @@
         margin-bottom: -17px
     }
 
-    .hum-block {
+    .x {
         padding-right: 0;
         float: right
     }
