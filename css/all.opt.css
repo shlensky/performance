@@ -87,7 +87,7 @@
     padding: 0
 }
 
-.l {
+.m {
     display: flex;
     align-items: center;
     padding: 0 4px;
@@ -106,7 +106,7 @@
     margin-bottom: 0;
 }
 
-.o {
+.p {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -114,18 +114,18 @@
     margin-bottom: -8px
 }
 
-.m {
+.n {
     display: inline-block;
     font-size: 18px
 }
 
-.q {
+.r {
     display: block;
     font-size: 18px;
     float: right
 }
 
-.i {
+.j {
     float: none
 }
 
@@ -152,7 +152,7 @@
     border-radius: 20px 20px 0 0
 }
 
-.k {
+.l {
     background: rgb(219, 83, 65);
     box-sizing: border-box;
     padding: 0 20px 28px 20px
@@ -181,19 +181,19 @@
     margin-bottom: -4px
 }
 
-.card-data_climat {
+.g {
     font-size: 18px;
     padding-top: 19px;
     margin-bottom: -10px
 }
 
-.climat-block {
+.v {
     display: inline-block;
     padding-right: 48px;
     padding-bottom: 11px
 }
 
-.climat-block_data {
+.z {
     font-weight: 700
 }
 
@@ -346,7 +346,7 @@
         width: 35px
     }
 
-    .x {
+    .y {
         width: 35px
     }
 
@@ -356,16 +356,16 @@
         line-height: 16px
     }
 
-    .l {
+    .m {
         padding: 0;
         height: 60px
     }
 
-    .m {
+    .n {
         font-size: 12px
     }
 
-    .q {
+    .r {
         font-size: 12px
     }
 
@@ -379,15 +379,15 @@
         padding-top: 39px
     }
 
-    .i {
+    .j {
         float: right
     }
 
-    .o {
+    .p {
         margin-bottom: -9px
     }
 
-    .card-data_climat {
+    .g {
         font-size: 14px;
         padding-top: 14px;
         margin-bottom: -17px
@@ -407,7 +407,7 @@
         height: 69px
     }
 
-    .k {
+    .l {
         padding: 0 17px 23px 17px
     }
 
@@ -468,7 +468,7 @@
         background: url(cam3.webp);
     }
 
-    .j {
+    .k {
         height: 177px
     }
 }
