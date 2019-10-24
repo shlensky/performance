@@ -48,7 +48,7 @@
     border-radius: 0.25rem;
 }
 
-.card-title {
+.h {
     margin-bottom: 0;
 }
 
@@ -91,7 +91,7 @@
     padding: 0
 }
 
-.card-heading {
+.k {
     display: flex;
     align-items: center;
     padding: 0 4px;
@@ -102,14 +102,14 @@
     width: 47px
 }
 
-.card-title {
+.h {
     font-size: 24px;
     font-weight: 700;
     padding-left: 18px;
     line-height: 27px
 }
 
-.l {
+.n {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -117,18 +117,18 @@
     margin-bottom: -8px
 }
 
-.j {
+.l {
     display: inline-block;
     font-size: 18px
 }
 
-.n {
+.p {
     display: block;
     font-size: 18px;
     float: right
 }
 
-.h {
+.i {
     float: none
 }
 
@@ -360,22 +360,22 @@
         width: 35px
     }
 
-    .card-title {
+    .h {
         font-size: 14px;
         padding-left: 16px;
         line-height: 16px
     }
 
-    .card-heading {
+    .k {
         padding: 0;
         height: 60px
     }
 
-    .j {
+    .l {
         font-size: 12px
     }
 
-    .n {
+    .p {
         font-size: 12px
     }
 
@@ -395,11 +395,11 @@
         padding-top: 39px
     }
 
-    .h {
+    .i {
         float: right
     }
 
-    .l {
+    .n {
         margin-bottom: -9px
     }
 
@@ -484,7 +484,7 @@
         background: url(cam3.webp);
     }
 
-    .i {
+    .j {
         height: 177px
     }
 }
