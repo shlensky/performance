@@ -48,7 +48,7 @@
     border-radius: 0.25rem;
 }
 
-.h {
+.card-title {
     margin-bottom: 0;
 }
 
@@ -91,7 +91,7 @@
     padding: 0
 }
 
-.k {
+.j {
     display: flex;
     align-items: center;
     padding: 0 4px;
@@ -102,14 +102,14 @@
     width: 47px
 }
 
-.h {
+.card-title {
     font-size: 24px;
     font-weight: 700;
     padding-left: 18px;
     line-height: 27px
 }
 
-.n {
+.m {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -117,18 +117,18 @@
     margin-bottom: -8px
 }
 
-.l {
+.k {
     display: inline-block;
     font-size: 18px
 }
 
-.p {
+.o {
     display: block;
     font-size: 18px;
     float: right
 }
 
-.i {
+.h {
     float: none
 }
 
@@ -360,22 +360,22 @@
         width: 35px
     }
 
-    .h {
+    .card-title {
         font-size: 14px;
         padding-left: 16px;
         line-height: 16px
     }
 
-    .k {
+    .j {
         padding: 0;
         height: 60px
     }
 
-    .l {
+    .k {
         font-size: 12px
     }
 
-    .p {
+    .o {
         font-size: 12px
     }
 
@@ -395,11 +395,11 @@
         padding-top: 39px
     }
 
-    .i {
+    .h {
         float: right
     }
 
-    .n {
+    .m {
         margin-bottom: -9px
     }
 
@@ -484,7 +484,7 @@
         background: url(cam3.webp);
     }
 
-    .j {
+    .i {
         height: 177px
     }
 }
