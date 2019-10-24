@@ -87,7 +87,7 @@
     padding: 0
 }
 
-.m {
+.n {
     display: flex;
     align-items: center;
     padding: 0 4px;
@@ -106,7 +106,7 @@
     margin-bottom: 0;
 }
 
-.q {
+.r {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -114,18 +114,18 @@
     margin-bottom: -8px
 }
 
-.o {
+.p {
     display: inline-block;
     font-size: 18px
 }
 
-.u {
+.v {
     display: block;
     font-size: 18px;
     float: right
 }
 
-.i {
+.j {
     float: none
 }
 
@@ -152,7 +152,7 @@
     border-radius: 20px 20px 0 0
 }
 
-.k {
+.m {
     background: rgb(219, 83, 65);
     box-sizing: border-box;
     padding: 0 20px 28px 20px
@@ -181,19 +181,19 @@
     margin-bottom: -4px
 }
 
-.g {
+.i {
     font-size: 18px;
     padding-top: 19px;
     margin-bottom: -10px
 }
 
-.y {
+.aa {
     display: inline-block;
     padding-right: 48px;
     padding-bottom: 11px
 }
 
-.s {
+.t {
     display: block;
     height: 53px;
     margin-top: 29px
@@ -211,25 +211,25 @@
     border-radius: 8px
 }
 
-.t {
+.u {
     float: left;
     padding-left: 15px;
     margin-right: -20px
 }
 
-.p {
+.q {
     font-size: 20px;
     color: #000;
     padding-top: 2px;
     padding-bottom: 18px
 }
 
-.e {
+.f {
     width: 350px;
     float: left
 }
 
-.aa {
+.ac {
     float: left;
     font-size: 14px;
     color: #adadad;
@@ -237,33 +237,33 @@
     margin-left: 12px
 }
 
-.volume-range {
+.c {
     background: 0 0;
     width: 267px;
     margin-left: 10px
 }
 
-.player-controls {
+.l {
     display: flex;
     padding-top: 17px;
     margin: 0 -20px -6px -20px
 }
 
-.player-control {
+.y {
     outline: 0;
     cursor: pointer;
     background: 0 0;
     border: none
 }
 
-.player-control_next {
+.h {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     margin-left: 15px;
     margin-top: -3px
 }
 
-.z {
+.ab {
     display: inline-block;
     font-size: 14px;
     color: #adadad;
@@ -342,7 +342,7 @@
         width: 35px
     }
 
-    .af {
+    .ah {
         width: 35px
     }
 
@@ -352,16 +352,16 @@
         line-height: 16px
     }
 
-    .m {
+    .n {
         padding: 0;
         height: 60px
     }
 
-    .o {
+    .p {
         font-size: 12px
     }
 
-    .u {
+    .v {
         font-size: 12px
     }
 
@@ -375,21 +375,21 @@
         padding-top: 39px
     }
 
-    .i {
+    .j {
         float: right
     }
 
-    .q {
+    .r {
         margin-bottom: -9px
     }
 
-    .g {
+    .i {
         font-size: 14px;
         padding-top: 14px;
         margin-bottom: -17px
     }
 
-    .ac {
+    .af {
         padding-right: 0;
         float: right
     }
@@ -403,7 +403,7 @@
         height: 69px
     }
 
-    .k {
+    .m {
         padding: 0 17px 23px 17px
     }
 
@@ -412,7 +412,7 @@
         padding: 16px 17px
     }
 
-    .s {
+    .t {
         margin-top: 13px
     }
 
@@ -420,7 +420,7 @@
         margin-left: 0
     }
 
-    .p {
+    .q {
         width: 234px;
         font-size: 18px;
         white-space: nowrap;
@@ -428,24 +428,24 @@
         overflow: hidden
     }
 
-    .t {
+    .u {
         padding-left: 15px
     }
 
-    .e {
+    .f {
         width: 192px
     }
 
-    .player-controls {
+    .l {
         margin: 0 -20px -10px -8px
     }
 
-    .player-control_next {
+    .h {
         margin-left: 8px;
         margin-top: -10px
     }
 
-    .volume-range {
+    .c {
         width: 117px
     }
 
@@ -464,7 +464,7 @@
         background: url(cam3.webp);
     }
 
-    .j {
+    .k {
         height: 177px
     }
 }
@@ -481,7 +481,7 @@ input[type=range]:focus {
     outline: 0
 }
 
-.e::-webkit-slider-thumb {
+.f::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
     height: 20px;
@@ -493,7 +493,7 @@ input[type=range]:focus {
     box-shadow: none
 }
 
-.volume-range::-webkit-slider-thumb {
+.c::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
     height: 16px;
@@ -506,7 +506,7 @@ input[type=range]:focus {
 }
 
 
-.e::-webkit-slider-runnable-track {
+.f::-webkit-slider-runnable-track {
     width: 100%;
     height: 1px;
     cursor: pointer;
@@ -515,7 +515,7 @@ input[type=range]:focus {
     border: none
 }
 
-.volume-range::-webkit-slider-runnable-track {
+.c::-webkit-slider-runnable-track {
     width: 100%;
     height: 4px;
     cursor: pointer;
