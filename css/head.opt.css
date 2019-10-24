@@ -35,18 +35,6 @@ dl {
     margin-bottom: 1rem;
 }
 
-
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
-
 img {
     vertical-align: middle;
     border-style: none;
@@ -62,13 +50,6 @@ button {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-}
-
-button:not(:disabled),
-[type="button"]:not(:disabled),
-[type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled) {
-    cursor: pointer;
 }
 
 p, em, h4, menu, ol {
