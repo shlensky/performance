@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run munch && rm -rf ./docs/* && NODE_ENV=production webpack --production && ls -lh ./docs",
-    "munch": "munch --css ./css/head.css,./css/all.css,./css/footer.css --html index.html --ignore .svg,#cb,#cb2,#fl,.critical,.button_yellow,.button,.description_critical,.critical,.card_icon_wrap,.content,.cover,.card,.card_size_s,.card_size_m,.card_size_l"
+    "munch": "munch --css ./css/head.css,./css/all.css,./css/footer.css --html index.html --ignore .svg,#cb,#cb2,#fl,.critical,.button_yellow,.button,.description_critical,.critical,.card_icon_wrap,.content,.cover,.card,.card_size_s,.card_size_m,.card_size_l,card-title"
   },
   "repository": {
     "type": "git",

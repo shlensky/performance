@@ -1,14 +1,14 @@
 #cb { display: none; }
 
-#cb ~ .b {
+#cb ~ .c {
     display: none;
 }
 
-#cb:checked ~ .card-description, #cb:checked ~ .buttons-wrap {
+#cb:checked ~ .a, #cb:checked ~ .buttons-wrap {
     display: none;
 }
 
-#cb:checked ~ .b {
+#cb:checked ~ .c {
     display: block;
 }
 
@@ -20,7 +20,7 @@
     padding: 0 40px;
 }
 
-.b .card-description {
+.c .a {
     padding-bottom: 12px;
 }
 
@@ -87,7 +87,7 @@
     padding: 0
 }
 
-.j {
+.l {
     display: flex;
     align-items: center;
     padding: 0 4px;
@@ -106,7 +106,7 @@
     margin-bottom: 0;
 }
 
-.m {
+.o {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -114,29 +114,29 @@
     margin-bottom: -8px
 }
 
-.k {
+.m {
     display: inline-block;
     font-size: 18px
 }
 
-.o {
+.q {
     display: block;
     font-size: 18px;
     float: right
 }
 
-.h {
+.j {
     float: none
 }
 
-.card-description {
+.a {
     display: block;
     font-size: 20px;
     padding-top: 23px;
     margin-bottom: 9px
 }
 
-.card-description_big {
+.g {
     font-size: 24px;
     padding: 24px 50px 0 0;
     margin-bottom: 0
@@ -353,7 +353,7 @@
         width: 35px
     }
 
-    .w {
+    .y {
         width: 35px
     }
 
@@ -363,26 +363,26 @@
         line-height: 16px
     }
 
-    .j {
+    .l {
         padding: 0;
         height: 60px
     }
 
-    .k {
+    .m {
         font-size: 12px
     }
 
-    .o {
+    .q {
         font-size: 12px
     }
 
-    .card-description {
+    .a {
         font-size: 18px;
         line-height: 22px;
         padding: 14px 0 0 0
     }
 
-    .card-description_big {
+    .g {
         font-size: 18px;
         line-height: 22px;
         padding: 14px 0 0 0
@@ -392,11 +392,11 @@
         padding-top: 39px
     }
 
-    .h {
+    .j {
         float: right
     }
 
-    .m {
+    .o {
         margin-bottom: -9px
     }
 
@@ -481,7 +481,7 @@
         background: url(cam3.webp);
     }
 
-    .i {
+    .k {
         height: 177px
     }
 }

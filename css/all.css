@@ -4,7 +4,7 @@
     display: none;
 }
 
-#cb:checked ~ .card-description, #cb:checked ~ .buttons-wrap {
+#cb:checked ~ .card_description, #cb:checked ~ .buttons-wrap {
     display: none;
 }
 
@@ -20,7 +20,7 @@
     padding: 0 40px;
 }
 
-.purchase_list_wrap .card-description {
+.purchase_list_wrap .card_description {
     padding-bottom: 12px;
 }
 
@@ -129,14 +129,14 @@
     float: none
 }
 
-.card-description {
+.card_description {
     display: block;
     font-size: 20px;
     padding-top: 23px;
     margin-bottom: 9px
 }
 
-.card-description_big {
+.card_description_big {
     font-size: 24px;
     padding: 24px 50px 0 0;
     margin-bottom: 0
@@ -376,13 +376,13 @@
         font-size: 12px
     }
 
-    .card-description {
+    .card_description {
         font-size: 18px;
         line-height: 22px;
         padding: 14px 0 0 0
     }
 
-    .card-description_big {
+    .card_description_big {
         font-size: 18px;
         line-height: 22px;
         padding: 14px 0 0 0
