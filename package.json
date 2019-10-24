@@ -1,0 +1,40 @@
+{
+  "name": "Performance__2019",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run munch && rm -rf ./docs/* && NODE_ENV=production webpack --production && ls -lh ./docs",
+    "munch": "munch --css ./css/head.css,./css/all.css,./css/footer.css --html index.html --ignore .svg,#cb,#cb2,#fl,.critical,.button_yellow,.button,.description_critical,.critical,.card_icon_wrap,.content,.cover,.card,.card_size_s,.card_size_m,.card_size_l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shlensky/Performance__2019.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shlensky/Performance__2019/issues"
+  },
+  "homepage": "https://github.com/shlensky/Performance__2019#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.2.0",
+    "html-inline-css-webpack-plugin": "^1.8.0",
+    "html-minifier": "^4.0.0",
+    "html-webpack-inline-svg-plugin": "^1.2.4",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^1.0.0",
+    "svg-sprite-loader": "^4.1.6",
+    "svgo": "^1.3.0",
+    "svgo-loader": "^2.2.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}

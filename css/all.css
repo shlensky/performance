@@ -1,0 +1,492 @@
+#cb { display: none; }
+
+#cb ~ .purchase_list_wrap {
+    display: none;
+}
+
+#cb:checked ~ .card-description, #cb:checked ~ .buttons-wrap {
+    display: none;
+}
+
+#cb:checked ~ .purchase_list_wrap {
+    display: block;
+}
+
+.purchase-list__item + .purchase-list__item {
+    margin-top: 10px;
+}
+
+.purchase-list {
+    padding: 0 40px;
+}
+
+.purchase_list_wrap .card-description {
+    padding-bottom: 12px;
+}
+
+.purchase-list__item {
+    font-size: 20px;
+    position: relative;
+}
+
+.purchase-list__item::before {
+    content: '';
+    position: absolute;
+    left: -24px;
+    width: 20px;
+    height: 20px;
+    background: url("checked.svg");
+}
+
+.card {
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.content-block {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 154px);
+    grid-auto-flow: dense;
+    grid-gap: 20px;
+    justify-content: center
+}
+
+
+.card {
+    background: #ebebeb;
+    color: #333;
+    border-radius: 23px;
+    box-sizing: border-box;
+    padding: 0 20px 20px 20px;
+}
+
+.card_size_s {
+    grid-column: span 2;
+    grid-row: span 1;
+    border-radius: 22px;
+}
+
+.card_size_m {
+    grid-column: span 3;
+    grid-row: span 1
+}
+
+.card_size_l {
+    grid-column: span 4;
+    grid-row: span 3
+}
+.critical {
+    color: #fff;
+    padding: 0
+}
+
+.card-heading {
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+    height: 92px
+}
+
+.card_icon_wrap {
+    width: 47px
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 18px;
+    line-height: 27px
+}
+
+.card_specs {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    margin-top: -14px;
+    margin-bottom: -8px
+}
+
+.card_source {
+    display: inline-block;
+    font-size: 18px
+}
+
+.card_time {
+    display: block;
+    font-size: 18px;
+    float: right
+}
+
+.card_time_block {
+    float: none
+}
+
+.card-description {
+    display: block;
+    font-size: 20px;
+    padding-top: 23px;
+    margin-bottom: 9px
+}
+
+.card-description_big {
+    font-size: 24px;
+    padding: 24px 50px 0 0;
+    margin-bottom: 0
+}
+
+.description_critical {
+    background: #ebebeb;
+    color: #000;
+    border-radius: 20px;
+    margin-top: -20px;
+    box-sizing: border-box;
+    padding: 23px 20px;
+    touch-action: none
+}
+
+.heading-critical {
+    background: rgba(219, 83, 65, 1);
+    box-sizing: border-box;
+    padding: 0 20px;
+    border-radius: 20px 20px 0 0
+}
+
+.specs-critical {
+    background: rgba(219, 83, 65, 1);
+    box-sizing: border-box;
+    padding: 0 20px 28px 20px
+}
+
+.critical-cam {
+    height: 424px;
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+    background: url(cam2.webp);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: 0 0;
+    touch-action: none
+}
+
+.card-data_graph {
+    border-radius: 20px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 90px
+}
+
+.card-data_graph-img {
+    width: 100%;
+    margin-bottom: -4px
+}
+
+.card-data_climat {
+    font-size: 18px;
+    padding-top: 19px;
+    margin-bottom: -10px
+}
+
+.climat-block {
+    display: inline-block;
+    padding-right: 48px;
+    padding-bottom: 11px
+}
+
+.climat-block_data {
+    font-weight: 700
+}
+
+.song-area {
+    display: block;
+    height: 53px;
+    margin-top: 29px
+}
+
+.cover-wrap {
+    float: left;
+    width: 53px;
+    height: 53px;
+    margin-left: 2px
+}
+
+.cover {
+    width: 100%;
+    border-radius: 8px
+}
+
+.song-data {
+    float: left;
+    padding-left: 15px;
+    margin-right: -20px
+}
+
+.song-title {
+    font-size: 20px;
+    color: #000;
+    padding-top: 2px;
+    padding-bottom: 18px
+}
+
+.song-range {
+    width: 350px;
+    float: left
+}
+
+.song-length {
+    float: left;
+    font-size: 14px;
+    color: rgba(161, 161, 161, .84);
+    margin-top: -6px;
+    margin-left: 12px
+}
+
+.volume-range {
+    background: 0 0;
+    width: 267px;
+    margin-left: 10px
+}
+
+.player-controls {
+    display: flex;
+    padding-top: 17px;
+    margin: 0 -20px -6px -20px
+}
+
+.player-control {
+    outline: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: none
+}
+
+.player-control_next {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-left: 15px;
+    margin-top: -3px
+}
+
+.song-volume {
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(161, 161, 161, .84);
+    margin-top: 21px;
+    margin-left: 12px
+}
+
+.buttons-wrap {
+    display: block;
+    padding-top: 30px
+}
+
+.button {
+    display: inline-block;
+    height: 54px;
+    width: 132px;
+    border-radius: 8px;
+    border: none;
+    background: #e5e5e5;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 18px
+}
+
+.button_yellow {
+    background: rgba(255, 217, 62, 1)
+}
+
+@media (max-width: 1230px) {
+    .card_size_m {
+        grid-column: span 4
+    }
+}
+
+@media (max-width: 1030px) {
+    .content {
+        width: 75%
+    }
+
+    .card_size_m {
+        grid-column: span 4
+    }
+}
+
+@media (max-width: 680px) {
+    .content {
+        width: 335px;
+        grid-template-columns: repeat(6, 1fr)
+    }
+
+    #stats { height: 16px; }
+    #router { height: 33px; }
+    #thermal { height: 35px; }
+    #ac { height: 30px; }
+    #fridge { height: 43px; }
+    #kettle { height: 41px; }
+
+    .card {
+        overflow: hidden;
+        padding: 0 17px 20px 17px
+    }
+
+    .card_size_l {
+        grid-column: span 6
+    }
+
+    .card_size_m {
+        grid-column: span 6
+    }
+
+    .card_size_s {
+        grid-column: span 6
+    }
+
+    .card_icon_wrap {
+        width: 35px
+    }
+
+    .card-icon {
+        width: 35px
+    }
+
+    .card-title {
+        font-size: 14px;
+        padding-left: 16px;
+        line-height: 16px
+    }
+
+    .card-heading {
+        padding: 0;
+        height: 60px
+    }
+
+    .card_source {
+        font-size: 12px
+    }
+
+    .card_time {
+        font-size: 12px
+    }
+
+    .card-description {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 14px 0 0 0
+    }
+
+    .card-description_big {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 14px 0 0 0
+    }
+
+    .card-data_graph {
+        padding-top: 39px
+    }
+
+    .card_time_block {
+        float: right
+    }
+
+    .card_specs {
+        margin-bottom: -9px
+    }
+
+    .card-data_climat {
+        font-size: 14px;
+        padding-top: 14px;
+        margin-bottom: -17px
+    }
+
+    .hum-block {
+        padding-right: 0;
+        float: right
+    }
+
+    .critical {
+        padding: 0
+    }
+
+    .heading-critical {
+        padding: 0 17px;
+        height: 69px
+    }
+
+    .specs-critical {
+        padding: 0 17px 23px 17px
+    }
+
+    .description_critical {
+        font-size: 18px;
+        padding: 16px 17px
+    }
+
+    .song-area {
+        margin-top: 13px
+    }
+
+    .cover-wrap {
+        margin-left: 0
+    }
+
+    .song-title {
+        width: 234px;
+        font-size: 18px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden
+    }
+
+    .song-data {
+        padding-left: 15px
+    }
+
+    .song-range {
+        width: 192px
+    }
+
+    .player-controls {
+        margin: 0 -20px -10px -8px
+    }
+
+    .player-control_next {
+        margin-left: 8px;
+        margin-top: -10px
+    }
+
+    .volume-range {
+        width: 117px
+    }
+
+    .buttons-wrap {
+        padding-top: 14px;
+        display: flex;
+        justify-content: space-between
+    }
+
+    .button {
+        height: 44px;
+        margin-right: 0
+    }
+
+    .critical-cam {
+        height: 177px;
+        background: url(cam3.webp);
+    }
+
+    .lazy-background {
+        height: 177px
+    }
+}
