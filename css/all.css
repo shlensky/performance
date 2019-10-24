@@ -130,13 +130,6 @@
 }
 
 .card_description {
-    display: block;
-    font-size: 20px;
-    padding-top: 23px;
-    margin-bottom: 9px
-}
-
-.card_description_big {
     font-size: 24px;
     padding: 24px 50px 0 0;
     margin-bottom: 0
@@ -377,12 +370,6 @@
     }
 
     .card_description {
-        font-size: 18px;
-        line-height: 22px;
-        padding: 14px 0 0 0
-    }
-
-    .card_description_big {
         font-size: 18px;
         line-height: 22px;
         padding: 14px 0 0 0

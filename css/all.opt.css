@@ -87,7 +87,7 @@
     padding: 0
 }
 
-.l {
+.k {
     display: flex;
     align-items: center;
     padding: 0 4px;
@@ -106,7 +106,7 @@
     margin-bottom: 0;
 }
 
-.o {
+.n {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -114,29 +114,22 @@
     margin-bottom: -8px
 }
 
-.m {
+.l {
     display: inline-block;
     font-size: 18px
 }
 
-.q {
+.p {
     display: block;
     font-size: 18px;
     float: right
 }
 
-.j {
+.i {
     float: none
 }
 
 .a {
-    display: block;
-    font-size: 20px;
-    padding-top: 23px;
-    margin-bottom: 9px
-}
-
-.g {
     font-size: 24px;
     padding: 24px 50px 0 0;
     margin-bottom: 0
@@ -353,7 +346,7 @@
         width: 35px
     }
 
-    .y {
+    .x {
         width: 35px
     }
 
@@ -363,16 +356,16 @@
         line-height: 16px
     }
 
-    .l {
+    .k {
         padding: 0;
         height: 60px
     }
 
-    .m {
+    .l {
         font-size: 12px
     }
 
-    .q {
+    .p {
         font-size: 12px
     }
 
@@ -382,21 +375,15 @@
         padding: 14px 0 0 0
     }
 
-    .g {
-        font-size: 18px;
-        line-height: 22px;
-        padding: 14px 0 0 0
-    }
-
     .card-data_graph {
         padding-top: 39px
     }
 
-    .j {
+    .i {
         float: right
     }
 
-    .o {
+    .n {
         margin-bottom: -9px
     }
 
@@ -481,7 +468,7 @@
         background: url(cam3.webp);
     }
 
-    .k {
+    .j {
         height: 177px
     }
 }
