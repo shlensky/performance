@@ -146,14 +146,14 @@
 }
 
 .heading-critical {
-    background: rgba(219, 83, 65, 1);
+    background: rgb(219, 83, 65);
     box-sizing: border-box;
     padding: 0 20px;
     border-radius: 20px 20px 0 0
 }
 
-.specs-critical {
-    background: rgba(219, 83, 65, 1);
+.specs_critical {
+    background: rgb(219, 83, 65);
     box-sizing: border-box;
     padding: 0 20px 28px 20px
 }
@@ -407,7 +407,7 @@
         height: 69px
     }
 
-    .specs-critical {
+    .specs_critical {
         padding: 0 17px 23px 17px
     }
 
