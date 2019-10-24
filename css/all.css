@@ -169,14 +169,14 @@
     touch-action: none
 }
 
-.card-data_graph {
+.card_data_graph {
     border-radius: 20px;
     width: 100%;
     overflow: hidden;
     padding-top: 90px
 }
 
-.card-data_graph-img {
+.card_data_graph-img {
     width: 100%;
     margin-bottom: -4px
 }
@@ -371,7 +371,7 @@
         padding: 14px 0 0 0
     }
 
-    .card-data_graph {
+    .card_data_graph {
         padding-top: 39px
     }
 

@@ -87,7 +87,7 @@
     padding: 0
 }
 
-.n {
+.o {
     display: flex;
     align-items: center;
     padding: 0 4px;
@@ -106,7 +106,7 @@
     margin-bottom: 0;
 }
 
-.r {
+.s {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -119,13 +119,13 @@
     font-size: 18px
 }
 
-.v {
+.w {
     display: block;
     font-size: 18px;
     float: right
 }
 
-.j {
+.k {
     float: none
 }
 
@@ -152,7 +152,7 @@
     border-radius: 20px 20px 0 0
 }
 
-.m {
+.n {
     background: rgb(219, 83, 65);
     box-sizing: border-box;
     padding: 0 20px 28px 20px
@@ -169,31 +169,31 @@
     touch-action: none
 }
 
-.card-data_graph {
+.e {
     border-radius: 20px;
     width: 100%;
     overflow: hidden;
     padding-top: 90px
 }
 
-.card-data_graph-img {
+.card_data_graph-img {
     width: 100%;
     margin-bottom: -4px
 }
 
-.i {
+.j {
     font-size: 18px;
     padding-top: 19px;
     margin-bottom: -10px
 }
 
-.aa {
+.ab {
     display: inline-block;
     padding-right: 48px;
     padding-bottom: 11px
 }
 
-.t {
+.u {
     display: block;
     height: 53px;
     margin-top: 29px
@@ -211,20 +211,20 @@
     border-radius: 8px
 }
 
-.u {
+.v {
     float: left;
     padding-left: 15px;
     margin-right: -20px
 }
 
-.q {
+.r {
     font-size: 20px;
     color: #000;
     padding-top: 2px;
     padding-bottom: 18px
 }
 
-.f {
+.g {
     width: 350px;
     float: left
 }
@@ -243,27 +243,27 @@
     margin-left: 10px
 }
 
-.l {
+.m {
     display: flex;
     padding-top: 17px;
     margin: 0 -20px -6px -20px
 }
 
-.y {
+.z {
     outline: 0;
     cursor: pointer;
     background: 0 0;
     border: none
 }
 
-.h {
+.i {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     margin-left: 15px;
     margin-top: -3px
 }
 
-.ab {
+.ae {
     display: inline-block;
     font-size: 14px;
     color: #adadad;
@@ -342,7 +342,7 @@
         width: 35px
     }
 
-    .ah {
+    .ai {
         width: 35px
     }
 
@@ -352,7 +352,7 @@
         line-height: 16px
     }
 
-    .n {
+    .o {
         padding: 0;
         height: 60px
     }
@@ -361,7 +361,7 @@
         font-size: 12px
     }
 
-    .v {
+    .w {
         font-size: 12px
     }
 
@@ -371,25 +371,25 @@
         padding: 14px 0 0 0
     }
 
-    .card-data_graph {
+    .e {
         padding-top: 39px
     }
 
-    .j {
+    .k {
         float: right
     }
 
-    .r {
+    .s {
         margin-bottom: -9px
     }
 
-    .i {
+    .j {
         font-size: 14px;
         padding-top: 14px;
         margin-bottom: -17px
     }
 
-    .af {
+    .ag {
         padding-right: 0;
         float: right
     }
@@ -403,7 +403,7 @@
         height: 69px
     }
 
-    .m {
+    .n {
         padding: 0 17px 23px 17px
     }
 
@@ -412,7 +412,7 @@
         padding: 16px 17px
     }
 
-    .t {
+    .u {
         margin-top: 13px
     }
 
@@ -420,7 +420,7 @@
         margin-left: 0
     }
 
-    .q {
+    .r {
         width: 234px;
         font-size: 18px;
         white-space: nowrap;
@@ -428,19 +428,19 @@
         overflow: hidden
     }
 
-    .u {
+    .v {
         padding-left: 15px
     }
 
-    .f {
+    .g {
         width: 192px
     }
 
-    .l {
+    .m {
         margin: 0 -20px -10px -8px
     }
 
-    .h {
+    .i {
         margin-left: 8px;
         margin-top: -10px
     }
@@ -464,7 +464,7 @@
         background: url(cam3.webp);
     }
 
-    .k {
+    .l {
         height: 177px
     }
 }
@@ -481,7 +481,7 @@ input[type=range]:focus {
     outline: 0
 }
 
-.f::-webkit-slider-thumb {
+.g::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
     height: 20px;
@@ -506,7 +506,7 @@ input[type=range]:focus {
 }
 
 
-.f::-webkit-slider-runnable-track {
+.g::-webkit-slider-runnable-track {
     width: 100%;
     height: 1px;
     cursor: pointer;
