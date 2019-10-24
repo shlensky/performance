@@ -35,18 +35,6 @@ dl {
     margin-bottom: 1rem;
 }
 
-
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
-
 img {
     vertical-align: middle;
     border-style: none;

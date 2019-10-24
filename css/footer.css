@@ -10,7 +10,8 @@ footer {
     margin-right: 12px;
     font-size: 12px;
     color: #858585;
-    cursor: pointer
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .footer_menu__link_inh {
