@@ -481,11 +481,10 @@
     }
 
     .critical-cam {
-        height: 177px;
         background: url(cam3.webp);
     }
 
-    .lazy-background {
+    .lazy_background {
         height: 177px
     }
 }

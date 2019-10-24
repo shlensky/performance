@@ -109,7 +109,7 @@
     line-height: 27px
 }
 
-.k {
+.l {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -117,12 +117,12 @@
     margin-bottom: -8px
 }
 
-.i {
+.j {
     display: inline-block;
     font-size: 18px
 }
 
-.m {
+.n {
     display: block;
     font-size: 18px;
     float: right
@@ -371,11 +371,11 @@
         height: 60px
     }
 
-    .i {
+    .j {
         font-size: 12px
     }
 
-    .m {
+    .n {
         font-size: 12px
     }
 
@@ -399,7 +399,7 @@
         float: right
     }
 
-    .k {
+    .l {
         margin-bottom: -9px
     }
 
@@ -481,11 +481,10 @@
     }
 
     .critical-cam {
-        height: 177px;
         background: url(cam3.webp);
     }
 
-    .lazy-background {
+    .i {
         height: 177px
     }
 }

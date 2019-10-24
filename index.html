@@ -266,7 +266,7 @@
                 <p class="card-description card-description_big description_critical">Робопылесос не смог сменить свое
                     местоположение в течение последних 3 минут. Похоже, ему нужна помощь.
                 </p>
-                <div class="lbg" style="background-position: 0px 0px; background-size: 100%;">
+                <div class="lazy_background">
                 </div>
 
                 <p></p></div>
@@ -302,7 +302,7 @@
 
 <script>
   const options = {root: null, rootMargin: '0px', threshold: 0.1};
-  const target = document.querySelector('.lbg');
+  const target = document.querySelector('.lazy_background');
   const observer = new IntersectionObserver((entries) => {
     if (entries[0].isIntersecting) {
       target.classList.add('critical-cam')
