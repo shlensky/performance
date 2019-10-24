@@ -87,7 +87,7 @@
     padding: 0
 }
 
-.l {
+.m {
     display: flex;
     align-items: center;
     padding: 0 4px;
@@ -114,18 +114,18 @@
     margin-bottom: -8px
 }
 
-.m {
+.o {
     display: inline-block;
     font-size: 18px
 }
 
-.v {
+.u {
     display: block;
     font-size: 18px;
     float: right
 }
 
-.i {
+.j {
     float: none
 }
 
@@ -152,7 +152,7 @@
     border-radius: 20px 20px 0 0
 }
 
-.k {
+.l {
     background: rgb(219, 83, 65);
     box-sizing: border-box;
     padding: 0 20px 28px 20px
@@ -181,19 +181,19 @@
     margin-bottom: -4px
 }
 
-.f {
+.g {
     font-size: 18px;
     padding-top: 19px;
     margin-bottom: -10px
 }
 
-.z {
+.y {
     display: inline-block;
     padding-right: 48px;
     padding-bottom: 11px
 }
 
-.t {
+.s {
     display: block;
     height: 53px;
     margin-top: 29px
@@ -211,7 +211,7 @@
     border-radius: 8px
 }
 
-.u {
+.t {
     float: left;
     padding-left: 15px;
     margin-right: -20px
@@ -224,7 +224,7 @@
     padding-bottom: 18px
 }
 
-.o {
+.c {
     width: 350px;
     float: left
 }
@@ -263,7 +263,7 @@
     margin-top: -3px
 }
 
-.song-volume {
+.z {
     display: inline-block;
     font-size: 14px;
     color: rgba(161, 161, 161, .84);
@@ -352,16 +352,16 @@
         line-height: 16px
     }
 
-    .l {
+    .m {
         padding: 0;
         height: 60px
     }
 
-    .m {
+    .o {
         font-size: 12px
     }
 
-    .v {
+    .u {
         font-size: 12px
     }
 
@@ -375,7 +375,7 @@
         padding-top: 39px
     }
 
-    .i {
+    .j {
         float: right
     }
 
@@ -383,7 +383,7 @@
         margin-bottom: -9px
     }
 
-    .f {
+    .g {
         font-size: 14px;
         padding-top: 14px;
         margin-bottom: -17px
@@ -403,7 +403,7 @@
         height: 69px
     }
 
-    .k {
+    .l {
         padding: 0 17px 23px 17px
     }
 
@@ -412,7 +412,7 @@
         padding: 16px 17px
     }
 
-    .t {
+    .s {
         margin-top: 13px
     }
 
@@ -428,11 +428,11 @@
         overflow: hidden
     }
 
-    .u {
+    .t {
         padding-left: 15px
     }
 
-    .o {
+    .c {
         width: 192px
     }
 
@@ -464,7 +464,71 @@
         background: url(cam3.webp);
     }
 
-    .j {
+    .k {
         height: 177px
     }
+}
+
+input[type=range] {
+    -webkit-appearance: none
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none
+}
+
+input[type=range]:focus {
+    outline: 0
+}
+
+.c::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 20px;
+    width: 12px;
+    border-radius: 4.5px;
+    background: #d8d8d8;
+    cursor: pointer;
+    margin-top: -8px;
+    box-shadow: none
+}
+
+.volume-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 26px;
+    background: #605757;
+    cursor: pointer;
+    margin-top: -6px;
+    box-shadow: none
+}
+
+
+.c::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    box-shadow: none;
+    background: #979797;
+    border: none
+}
+
+.volume-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    box-shadow: none;
+    background: rgba(216, 216, 216, .3);
+    border-radius: 2px;
+    border: none
+}
+
+.c:focus::-webkit-slider-runnable-track {
+    background: #979797
+}
+
+.volume-range:focus::-webkit-slider-runnable-track {
+    background: rgba(216, 216, 216, .3)
 }

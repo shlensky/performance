@@ -142,71 +142,6 @@ ol, ul {
     list-style: none
 }
 
-input[type=range] {
-    -webkit-appearance: none
-}
-
-input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none
-}
-
-input[type=range]:focus {
-    outline: 0
-}
-
-input[type=range].song-range::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    border: none;
-    height: 20px;
-    width: 12px;
-    border-radius: 4.5px;
-    background: #d8d8d8;
-    cursor: pointer;
-    margin-top: -8px;
-    box-shadow: none
-}
-
-input[type=range].volume-range::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    border: none;
-    height: 16px;
-    width: 16px;
-    border-radius: 26px;
-    background: #605757;
-    cursor: pointer;
-    margin-top: -6px;
-    box-shadow: none
-}
-
-
-input[type=range].song-range::-webkit-slider-runnable-track {
-    width: 100%;
-    height: 1px;
-    cursor: pointer;
-    box-shadow: none;
-    background: #979797;
-    border-radius: none;
-    border: none
-}
-
-input[type=range].volume-range::-webkit-slider-runnable-track {
-    width: 100%;
-    height: 4px;
-    cursor: pointer;
-    box-shadow: none;
-    background: rgba(216, 216, 216, .3);
-    border-radius: 2px;
-    border: none
-}
-
-input[type=range].song-range:focus::-webkit-slider-runnable-track {
-    background: #979797
-}
-
-input[type=range].volume-range:focus::-webkit-slider-runnable-track {
-    background: rgba(216, 216, 216, .3)
-}
-
 body, html {
     font-family: Arial;
     padding: 0;
@@ -214,10 +149,6 @@ body, html {
     height: 100%;
     width: 100%
 }
-
-
-
-
 
 .switch-block {
     display: none
@@ -249,7 +180,7 @@ body, html {
     text-decoration: none
 }
 
-.e {
+.f {
     display: none
 }
 
@@ -318,7 +249,7 @@ body, html {
         width: 100%
     }
 
-    .e {
+    .f {
         float: right;
         margin-top: 27px;
         cursor: pointer;
