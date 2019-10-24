@@ -174,8 +174,8 @@
     margin-top: 40px;
     display: block;
     border-radius: 20px;
-    background-size: 100%;
     background: url(cam2.webp) 0 0;
+    background-size: 100%;
     touch-action: none
 }
 
