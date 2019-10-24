@@ -520,15 +520,7 @@ input[type=range]:focus {
     height: 4px;
     cursor: pointer;
     box-shadow: none;
-    background: rgba(216, 216, 216, .3);
+    background: #e5e5e5;
     border-radius: 2px;
     border: none
-}
-
-.song_range:focus::-webkit-slider-runnable-track {
-    background: #979797
-}
-
-.volume-range:focus::-webkit-slider-runnable-track {
-    background: rgba(216, 216, 216, .3)
 }
