@@ -1,6 +1,6 @@
 #cb { display: none; }
 
-#cb ~ .c {
+#cb ~ .b {
     display: none;
 }
 
@@ -8,7 +8,7 @@
     display: none;
 }
 
-#cb:checked ~ .c {
+#cb:checked ~ .b {
     display: block;
 }
 
@@ -20,7 +20,7 @@
     padding: 0 40px;
 }
 
-.c .a {
+.b .a {
     padding-bottom: 12px;
 }
 
@@ -87,7 +87,7 @@
     padding: 0
 }
 
-.m {
+.l {
     display: flex;
     align-items: center;
     padding: 0 4px;
@@ -106,7 +106,7 @@
     margin-bottom: 0;
 }
 
-.p {
+.q {
     display: block;
     width: 100%;
     line-height: 40px;
@@ -114,18 +114,18 @@
     margin-bottom: -8px
 }
 
-.n {
+.m {
     display: inline-block;
     font-size: 18px
 }
 
-.r {
+.v {
     display: block;
     font-size: 18px;
     float: right
 }
 
-.j {
+.i {
     float: none
 }
 
@@ -152,7 +152,7 @@
     border-radius: 20px 20px 0 0
 }
 
-.l {
+.k {
     background: rgb(219, 83, 65);
     box-sizing: border-box;
     padding: 0 20px 28px 20px
@@ -181,19 +181,19 @@
     margin-bottom: -4px
 }
 
-.g {
+.f {
     font-size: 18px;
     padding-top: 19px;
     margin-bottom: -10px
 }
 
-.v {
+.z {
     display: inline-block;
     padding-right: 48px;
     padding-bottom: 11px
 }
 
-.song-area {
+.t {
     display: block;
     height: 53px;
     margin-top: 29px
@@ -211,25 +211,25 @@
     border-radius: 8px
 }
 
-.song-data {
+.u {
     float: left;
     padding-left: 15px;
     margin-right: -20px
 }
 
-.song-title {
+.p {
     font-size: 20px;
     color: #000;
     padding-top: 2px;
     padding-bottom: 18px
 }
 
-.song-range {
+.o {
     width: 350px;
     float: left
 }
 
-.song-length {
+.aa {
     float: left;
     font-size: 14px;
     color: rgba(161, 161, 161, .84);
@@ -342,7 +342,7 @@
         width: 35px
     }
 
-    .z {
+    .af {
         width: 35px
     }
 
@@ -352,16 +352,16 @@
         line-height: 16px
     }
 
-    .m {
+    .l {
         padding: 0;
         height: 60px
     }
 
-    .n {
+    .m {
         font-size: 12px
     }
 
-    .r {
+    .v {
         font-size: 12px
     }
 
@@ -375,21 +375,21 @@
         padding-top: 39px
     }
 
-    .j {
+    .i {
         float: right
     }
 
-    .p {
+    .q {
         margin-bottom: -9px
     }
 
-    .g {
+    .f {
         font-size: 14px;
         padding-top: 14px;
         margin-bottom: -17px
     }
 
-    .x {
+    .ac {
         padding-right: 0;
         float: right
     }
@@ -403,7 +403,7 @@
         height: 69px
     }
 
-    .l {
+    .k {
         padding: 0 17px 23px 17px
     }
 
@@ -412,7 +412,7 @@
         padding: 16px 17px
     }
 
-    .song-area {
+    .t {
         margin-top: 13px
     }
 
@@ -420,7 +420,7 @@
         margin-left: 0
     }
 
-    .song-title {
+    .p {
         width: 234px;
         font-size: 18px;
         white-space: nowrap;
@@ -428,11 +428,11 @@
         overflow: hidden
     }
 
-    .song-data {
+    .u {
         padding-left: 15px
     }
 
-    .song-range {
+    .o {
         width: 192px
     }
 
@@ -464,7 +464,7 @@
         background: url(cam3.webp);
     }
 
-    .k {
+    .j {
         height: 177px
     }
 }

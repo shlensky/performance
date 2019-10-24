@@ -6,19 +6,19 @@ footer {
     padding: 40px 40px 0 40px
 }
 
-.s {
+.w {
     margin-right: 12px;
     font-size: 12px;
     color: #858585;
     cursor: pointer
 }
 
-.q {
+.r {
     color: #212529;
 }
 
 @media (max-width: 680px) {
-    .w {
+    .ab {
         padding-left: 20px
     }
 }

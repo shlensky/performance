@@ -193,7 +193,7 @@
     padding-bottom: 11px
 }
 
-.song-area {
+.song_area {
     display: block;
     height: 53px;
     margin-top: 29px
@@ -211,25 +211,25 @@
     border-radius: 8px
 }
 
-.song-data {
+.song_data {
     float: left;
     padding-left: 15px;
     margin-right: -20px
 }
 
-.song-title {
+.song_title {
     font-size: 20px;
     color: #000;
     padding-top: 2px;
     padding-bottom: 18px
 }
 
-.song-range {
+.song_range {
     width: 350px;
     float: left
 }
 
-.song-length {
+.song_length {
     float: left;
     font-size: 14px;
     color: rgba(161, 161, 161, .84);
@@ -412,7 +412,7 @@
         padding: 16px 17px
     }
 
-    .song-area {
+    .song_area {
         margin-top: 13px
     }
 
@@ -420,7 +420,7 @@
         margin-left: 0
     }
 
-    .song-title {
+    .song_title {
         width: 234px;
         font-size: 18px;
         white-space: nowrap;
@@ -428,11 +428,11 @@
         overflow: hidden
     }
 
-    .song-data {
+    .song_data {
         padding-left: 15px
     }
 
-    .song-range {
+    .song_range {
         width: 192px
     }
 
